@@ -1,0 +1,325 @@
+.ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #625b4b;
+}
+
+.ct_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.ct_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.ct_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.ct_texts h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0.5rem 0 2rem 0;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+.ct_details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ct_details-spot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+    width: 100%;
+}
+
+.ct_details-texts{
+    display: flex;
+    flex-direction: column;
+    margin: 0.85rem 0;
+}
+
+.ct_details-texts h3{
+    margin: 0 0 0.5rem 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.ct_details-texts p{
+    margin: 0.5rem 0 0 0;
+    font-size: 14px;
+    color: #bab3a6;
+}
+
+.ct_details-texts h4{
+    margin: 0.2rem 0 0 0;
+    font-size: 14px;
+    color: #bab3a6;
+}
+
+
+.ct_input{
+    display: flex;
+    justify-content: center;
+}
+
+.ct_input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.ct_input1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+    width: 670px;
+}
+
+.ct_input1 input{
+    font-size: 14px;
+    color: white;
+    background-color: #0c0b09;
+    height: 44px;
+    border: 1px solid #625b4b;
+    padding: 10px 12px;
+}
+
+.ct_input2{
+    display: flex;
+    margin-bottom: 2rem;
+    width: 670px;
+}
+
+.ct_input2 input{
+    font-size: 14px;
+    color: white;
+    background-color: #0c0b09;
+    height: 4rem;
+    border: 1px solid #625b4b;
+    padding: 10px 12px;
+    width: 100%;
+}
+
+.ct_input3{
+    display: flex;
+    margin-bottom: 2rem;
+    width: 670px;
+}
+
+.ct_input3 input{
+    font-size: 14px;
+    color: white;
+    background-color: #0c0b09;
+    height: 7rem;
+    width: 100%;
+    border: 1px solid #625b4b;
+    padding: 10px 12px;
+}
+
+.ct_btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ct_btn a{
+    color: #fff;
+    padding: 1rem 4rem;
+    background: #cda45e;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .ct_input1{
+        width: 600px;
+    }
+
+    .ct_input2{
+        width: 600px;
+    }
+
+    .ct_input3{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .ct_input1{
+        width: 500px;
+    }
+
+    .ct_input2{
+        width: 500px;
+    }
+
+    .ct_input3{
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 1035px) {
+
+    .ct_details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ct_input1{
+        width: 700px;
+    }
+
+    .ct_input2{
+        width: 700px;
+    }
+
+    .ct_input3{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .ct_container{
+        padding: 2rem 0 2rem 4rem;
+        max-width: 900px;
+    }
+    .ct_input1{
+        width: 600px;
+    }
+
+    .ct_input2{
+        width: 600px;
+    }
+
+    .ct_input3{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .ct_input1{
+        width: 500px;
+    }
+
+    .ct_input2{
+        width: 500px;
+    }
+
+    .ct_input3{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        .ct_input1{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .ct_input1{
+        width: 400px;
+    }
+
+    .ct_input2{
+        width: 400px;
+    }
+
+    .ct_input3{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+.ct_input1{
+    width: 300px;
+}
+
+.ct_input2{
+    width: 300px;
+}
+
+.ct_input3{
+    width: 300px;
+ }
+}
+
+@media screen and (max-width: 400px) {
+    .ct_input1{
+        width: 250px;
+    }
+    
+    .ct_input2{
+        width: 250px;
+    }
+    
+    .ct_input3{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ct_input1{
+        width: 220px;
+    }
+    
+    .ct_input2{
+        width: 220px;
+    }
+    
+    .ct_input3{
+        width: 220px;
+    }
+}
+
+
+@media screen and (max-width: 325px) {
+    .ct_input1{
+        width: 170px;
+    }
+    
+    .ct_input2{
+        width: 200px;
+    }
+    
+    .ct_input3{
+        width: 200px;
+    }
+}
+
+
+

@@ -1,0 +1,18 @@
+
+         
+         
+          
+          
+          
+<Contact />
+
+
+
+
+          animate={{
+            scale: zoom ? 3 : 1,
+            x: zoom ? '150%' : 1,
+            y: zoom ? '10%' : 1
+          }}
+
+          onClick={() => {setZoom(!zoom)}}

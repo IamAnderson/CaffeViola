@@ -1,0 +1,153 @@
+.ev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101b2;
+}
+
+.ev_container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.ev_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ev_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 1rem 0;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.ev_texts h2{
+    margin: 1rem 0 2rem 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+.ev_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.evc_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.prevbtn{
+    margin: 0 0.2rem 0 0;
+    cursor: pointer;
+}
+
+.middlebtn{
+    margin: 0 0.05rem 0 0.05rem;
+    cursor: pointer;
+}
+
+.nextbtn{
+    margin: 0 0 0 0.2rem;
+    cursor: pointer;
+}
+
+.prevbtn:active{
+    color: #cda45e;
+}
+
+.middlebtn:active{
+    color: #cda45e;
+}
+
+.nextbtn:active{
+    color: #cda45e;
+}
+
+.slide{
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transform: scale(105%);
+}
+
+
+@media screen and (max-width: 1105px) {
+
+    .ev_texts h3{
+        font-size: 13px;
+    }
+
+    .ev_texts h2{
+        font-size: 34px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 945px) {
+  .ev_texts h3{
+        font-size: 13px;
+    }
+
+    .ev_texts h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .ev_texts h2{
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .ev_texts h2{
+        font-size: 27px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ev_texts h2{
+        font-size: 26px;
+        max-width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .ev_texts h2{
+        font-size: 24px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .ev_texts h2{
+        font-size: 22px;
+        max-width: 250px;
+    }
+}
+
+
+

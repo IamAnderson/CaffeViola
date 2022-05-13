@@ -1,0 +1,39 @@
+.Sb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010102;
+}
+
+.IconClose{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    color: #010102;
+    font-size: 2rem;
+}
+
+
+.Sb_Menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 2.5rem;
+    flex-direction: column;
+}
+
+.Sb_Menu li{
+    padding: 1.0rem 0;
+    color: #010102;
+    list-style: none;
+    cursor: pointer;
+}
+
+.Sb_Menu a{
+    color: #010102;
+    text-decoration: none;
+}
+
+.Sb_Menu a:active{
+    color: #d9ba85;
+}

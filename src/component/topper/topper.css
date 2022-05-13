@@ -1,0 +1,68 @@
+.Tp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tp_Texts{
+    display: flex;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.Tp_Texts p{
+        height: 40px;
+        font-size: 14px;
+        transition: all 0.5s;
+        padding-right: 1rem;
+}
+
+.Tp_Texts h4{
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    padding-left: 1rem;
+}
+
+.Tp_Lang{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 2rem;
+}
+
+.Tp_Lang p{
+    color: #cda45e;
+    font-size: 14px;
+}
+
+.Tp_Lang p:nth-child(2){
+    color: #fff;
+    padding: 0 0.25rem;
+}
+
+.Tp_Lang p:nth-child(3){
+    color: #fff;
+}
+
+.Tp_Lang p:nth-child(3):hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 770px) {
+    .Tp_Lang{
+        display: none;
+    }
+
+    .Tp_Texts{
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .Tp_Texts p, .Tp_Texts h4{
+        font-size: 14px;
+    }
+}

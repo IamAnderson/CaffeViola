@@ -1,0 +1,53 @@
+.wu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wu_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1200px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.wu_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+.wu_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.wu_texts h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+    margin-top: 1rem;
+}
+
+.wu_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .wu_cards{
+        flex-direction: column;
+    }
+}

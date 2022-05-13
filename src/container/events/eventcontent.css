@@ -1,0 +1,286 @@
+.evc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.evc_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.evc_img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:  2rem 0;
+    margin-right: 1rem;
+    max-width: 500px;
+}
+
+.evc_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.evc_texts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 1rem;
+    max-width: 500px;
+}
+
+.evc_texts h3{
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+    font-size: 26px;
+    margin: 0 0 0.5rem 0;
+}
+
+.evc_texts h2{
+    color: #fff;
+    font-size: 28px;
+    margin: 0.5rem 0 0.5rem 0;
+    border-bottom: 2px solid #cda45e;
+}
+
+.evc_texts p{
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    margin: 0.5rem 0 0.5em 0;
+}
+
+.evc_texts h4{
+        font-size: 16px;
+        color: #fff;
+        line-height: 2rem;
+        margin: 1rem 0 0.5rem 0;
+        font-weight: lighter;
+        
+}
+
+.evc_texts h5{
+    font-size: 16px;
+    color: #fff;
+    margin: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 1105px) {
+    .evc_img{
+        max-width: 450px;
+    }
+
+    .evc_texts{
+        max-width: 400px;
+    }
+
+    .evc_texts h3{
+        font-size: 25px;
+    }
+    
+    .evc_texts h2{
+        font-size: 27px;
+    }
+    
+    .evc_texts p{
+        font-size: 15px;
+    }
+    
+    .evc_texts h4{
+            font-size: 15px;       
+    }
+    
+    .evc_texts h5{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 945px) {
+    .evc_container{
+        flex-direction: column-reverse;
+    }
+    
+    .evc_texts{
+        max-width: 800px;
+    }
+
+    .evc_img{
+        max-width: 600px;
+    }
+
+    .evc_texts h3{
+        font-size: 26px;
+    }
+    
+    .evc_texts h2{
+        font-size: 28px;
+    }
+    
+    .evc_texts p{
+        font-size: 16px;
+    }
+    
+    .evc_texts h4{
+            font-size: 16px;       
+    }
+    
+    .evc_texts h5{
+        font-size: 16px;
+    }
+
+}   
+
+
+
+@media screen and (max-width: 945px) {
+    .evc_texts{
+        max-width: 700px;
+    }
+
+}  
+
+@media screen and (max-width: 770px) {
+    .evc_texts{
+        max-width: 600px;
+    }
+
+    .evc_img{
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+    .evc_texts{
+        max-width: 450px;
+    }
+
+    .evc_img{
+        max-width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 545px) {
+    .evc_texts{
+        max-width: 400px;
+    }
+
+    .evc_img{
+        max-width: 400px;
+    }
+
+
+    
+    .evc_texts h3{
+        font-size: 24px;
+    }
+    
+    .evc_texts h2{
+        font-size: 26px;
+    }
+    
+    .evc_texts p{
+        font-size: 15px;
+    }
+    
+    .evc_texts h4{
+            font-size: 15px;       
+    }
+    
+    .evc_texts h5{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 455px) {
+    .evc_texts{
+        max-width: 350px;
+    }
+
+    .evc_img{
+        max-width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 405px) {
+    .evc_texts{
+        max-width: 320px;
+    }
+
+    .evc_img{
+        max-width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .evc_texts{
+        max-width: 300px;
+    }
+
+    .evc_img{
+        max-width: 300px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .evc_texts{
+        max-width: 250px;
+    }
+
+    .evc_img{
+        max-width: 250px;
+    }
+
+      
+    .evc_texts h3{
+        font-size: 23px;
+    }
+    
+    .evc_texts h2{
+        font-size: 25px;
+    }
+    
+    .evc_texts p{
+        font-size: 14px;
+    }
+    
+    .evc_texts h4{
+            font-size: 14px;       
+    }
+    
+    .evc_texts h5{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .evc_texts{
+        max-width: 200px;
+    }
+
+    .evc_img{
+        max-width: 200px;
+    }
+
+}
+

@@ -1,0 +1,51 @@
+.glI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glI_container{
+    
+}
+
+.glI_container img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.glI_container :hover{
+    transform: scale(105%);
+    transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 835px){
+    .glI_container{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .glI_container{
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .glI_container{
+        width: 21rem;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .glI_container{
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .glI_container{
+        width: 16rem;
+    }
+}

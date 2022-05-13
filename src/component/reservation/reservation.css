@@ -1,0 +1,139 @@
+.rv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rv_container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+    flex-direction: column;
+}
+
+.rv_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1rem 0 2rem 0;
+}
+
+.rv_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: sans-serif;
+    margin-bottom: 0.55rem;
+}
+
+.rv_texts h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+    margin-top: 0.55rem;
+}
+
+.rv_inputbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rv_input1spot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.rv_input1spot input{
+    font-size: 14px;
+    color: white;
+    background-color: #0c0b09;
+    height: 44px;
+    border: 1px solid #625b4b;
+    padding: 10px 12px;
+}
+
+.rv_input2spot{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.rv_input2spot input{
+    font-size: 14px;
+    background: #0c0b09;
+    color: white;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #625b4b;
+    height: 8rem;
+}
+
+.rv_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.rv_btn a{
+    color: #fff;
+    padding: 1rem 4rem;
+    background: #cda45e;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:1060px) {
+    .rv_input1spot input{
+        padding: 10px;
+    }
+
+    .rv_input2spot input{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .rv_input1spot{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width:435px) {
+    .rv_input1spot{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rv_input2spot input{
+        width: 100%;
+    }
+
+    .rv_texts h3{
+        font-size: 13px;
+    }
+    
+    .rv_texts h1{
+        font-size: 34px;
+    }
+}
+
+
+
+
+
+
+

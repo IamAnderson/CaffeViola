@@ -1,0 +1,25 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09;
+    color: #fff;
+}
+
+.hero__bg{
+    background-image: url('./assets/hero-bg.jpg');
+    background-blend-mode: soft-light;
+    background-color: #0c0b094f;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.about__bg{
+    background-image: url('./assets/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.event__bg{
+    background: url('./assets/events-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}

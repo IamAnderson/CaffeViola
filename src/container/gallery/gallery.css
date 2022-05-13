@@ -1,0 +1,94 @@
+.gl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gl_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.gl_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.gl_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.gl_texts h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0.5rem 0 2rem 0;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+.gl_section{
+    display: flex;
+    justify-content: center;
+}
+
+.gl_images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media screen and (max-width: 1105px){
+    .gl_images{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 735px){
+    .gl_images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 735px){
+    .gl_texts h3{
+        font-size: 14px;
+    }
+    
+    .gl_texts h1{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .gl_texts h3{
+        font-size: 13px;
+    }
+    
+    .gl_texts h1{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .gl_images{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+

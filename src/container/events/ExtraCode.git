@@ -1,0 +1,15 @@
+  const autoScroll = true;
+  let autoScrolling;
+
+  function auto() {
+    autoScrolling = setInterval (nextBtn, 3500);
+  };
+
+  useEffect(() =>{
+    if (autoScroll) {
+      auto ();
+    };
+
+    return () => clearInterval (autoScrolling);
+
+  }, [current]);

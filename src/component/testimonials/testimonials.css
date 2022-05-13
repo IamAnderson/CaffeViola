@@ -1,0 +1,86 @@
+.tn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tn_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #1a1814;
+    width: 1200px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.tn_texts{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.tn_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.tn_texts h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0.5rem 0 2rem 0;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+.tn_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tn_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstbtn{
+    margin-right: 0.15rem;
+}
+
+.secondbtn{
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+
+.thirdbtn{
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+
+.fourthbtn{
+    margin-left: 0.15rem;
+}
+
+.firstbtn:active{
+    color: #cda45e;
+}
+
+.secondbtn:active{
+    color: #cda45e;
+}
+
+.thirdbtn:active{
+    color: #cda45e;
+}
+
+.fourthbtn:active{
+    color: #cda45e;
+}

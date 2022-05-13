@@ -1,0 +1,273 @@
+.ft{
+    display: flex;
+    flex-direction: column;
+}
+
+.ft_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #625b4b;
+}
+
+.ft_container{
+    display: flex;
+    width: 1200px;
+    padding: 4rem 0;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ft_texts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.ft_texts h2{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+}
+
+.ft_texts p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: serif;
+    color: #fff;
+}
+
+.ft_texts h4{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: serif;
+    color: #fff; 
+    margin-top: 2rem;
+}
+
+.ft_texts h5{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: serif;
+    color: #fff;
+}
+
+.ft_socials{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    max-width: 300px;
+}
+
+.ft_socials a{
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.ft_links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.ft_links ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ft_links li{
+    list-style: circle;
+    padding: 0.75rem 0;
+}
+
+.ft_links h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.ft_links p{
+    color: #fff;
+    line-height: 1;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.ft_links p:hover{
+    color: #cda45e;
+    transition: 0.4s all ease;
+}
+
+
+
+.ft_services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.ft_services ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ft_services li{
+    list-style: circle;
+    padding: 0.75rem 0;
+}
+
+.ft_services h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.ft_services p{
+    color: #fff;
+    line-height: 1;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.ft_services p:hover{
+    color: #cda45e;
+    transition: 0.4s all ease;
+}
+
+
+
+.ft_newsletter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.ft_newsletter h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.ft_newsletter p{
+    color: #fff;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 0.5rem 0;
+}
+
+.ft_sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.ft_sub input{
+    border: none;
+    padding: 4px;
+    width: calc(100% - 110px);
+    background: #28251f;
+    color: white;
+    width: 18rem;
+    height: 2.3rem;
+    position: relative;
+}
+
+.ft_sub a{
+    display: flex;
+    border: none;
+    align-items: center;
+    font-size: 16px;
+    padding: 2px 20px 2px 20px;
+    background: #cda45e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    position: absolute;
+    right: 3rem;
+    text-align: center;
+    height: 2.3rem;
+}
+
+.ft_sub a:hover{
+    background-color: #cda45ec9;
+    transition: 0.2s all ease;
+}
+
+.ft_copyright{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+
+.ft_ctexts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.ft_ctexts p{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.up_icon{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.up_icon a{
+    font-size: 3rem;
+    color: #cda45e;
+    text-decoration: none;
+}
+
+.up_icon a:hover{
+    color: #ddaa52;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .ft_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 520px) {
+    .ft_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

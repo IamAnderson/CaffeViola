@@ -1,0 +1,77 @@
+.ch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ch_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.ch_texts{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   width: 100%;
+}
+
+.ch_texts h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.ch_texts h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    margin: 0.5rem 0 2rem 0;
+    color: #cda45e;
+}
+
+.ch_images{
+    display: flex;
+    align-items: center;
+}
+
+.ch_imgspot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .ch_imgspot{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .ch_texts h2{
+        font-size: 34px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .ch_texts h2{
+        font-size: 32px;
+    }
+
+    .ch_texts h3{
+        font-size: 13px;
+    }
+}

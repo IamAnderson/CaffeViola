@@ -1,0 +1,6 @@
+export { default as Topper } from './topper/Topper'
+export { default as Navbar } from './navbar/Navbar'
+export { default as Sidebar } from './sidebar/Sidebar'
+export { default as Reservation } from './reservation/Reservation'
+export { default as Testimonials } from './testimonials/Testimonials'
+export { default as Whyus} from './why us/Whyus'

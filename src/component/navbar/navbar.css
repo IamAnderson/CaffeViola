@@ -1,0 +1,117 @@
+.Nb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #0c0b09b4;
+    padding: 1.0rem;
+    z-index: 4;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.Nb_Container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.Nb_Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Nb_Logo h1{
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.Nb_Menu{
+    display: flex;
+}
+
+.Nb_Menu li{
+    list-style-type: none;
+    padding: 10px 0px 10px 30px;
+}
+
+.Nb_Menu a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.Nb_Menu-btn {
+    display: flex;
+    align-items: center;
+}
+
+.Nb_Menu-btn a{
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 13px;
+    border: 2px solid #d9ba85;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    text-decoration: none;
+}
+
+.Nb_Menu a:active{
+    color: #d9ba85;
+}
+
+
+.Nb_Menu a:hover{
+    color: #d9ba85;
+}
+
+.Nb_Menu-btn a:hover{
+    background-color: #d9ba85;
+}
+
+.IconOpen{
+    display: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1110px) {
+    .Nb_Menu-btn a{
+        border-radius: 50px;
+        padding: 18px 5px;
+        text-align: center;
+    }
+
+    .Nb_Menu{
+        align-items: center;
+    }
+
+    .Nb_Menu-btn{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .Nb_Menu-btn {
+        display: none;
+    }
+
+    .Nb_Menu{
+        display: none;
+    }
+
+    .IconOpen{
+        display: flex;
+        align-items: center;
+    }
+}
