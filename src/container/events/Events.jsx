@@ -4,7 +4,7 @@ import Eventcontent from './Eventcontent'
 import { EventData } from './eventdata' 
 import './events.css'
 import { BsCircle } from 'react-icons/bs'
-import { Fade } from 'react-reveal'
+import { Fade, Zoom } from 'react-reveal'
 
 const Events = ({ slides }) => {
 
@@ -33,7 +33,7 @@ const nextBtn = () => {
         </div>
         </Fade>
 
-      <Fade bottom>
+      
         <div className='ev_content'>
           {EventData.map((slide, index) => {
                 return(
@@ -43,7 +43,7 @@ const nextBtn = () => {
                 )
             })}
         </div>
-      </Fade>
+
 
       <Fade bottom>
         <div className='evc_icon'>
