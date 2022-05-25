@@ -76,7 +76,7 @@
     font-weight: lighter;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 960px) {
     .tnc_containerbox{
         flex-direction: column;
     }

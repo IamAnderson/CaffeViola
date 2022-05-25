@@ -6,7 +6,7 @@
 
 .rv_container{
     display: flex;
-    width: 1200px;
+    width: 87vw;
     margin: 0 auto;
     padding: 4rem 0;
     flex-direction: column;
@@ -107,6 +107,10 @@
 
 
 @media screen and (max-width:960px) {
+    .rv_container{
+        width: 91vw;    
+    }
+
     .rv_input1spot{
         grid-template-columns: repeat(2, 1fr);
     }

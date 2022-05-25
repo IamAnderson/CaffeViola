@@ -9,9 +9,8 @@
     justify-content: center;
     flex-direction: column;
     background: #1a1814;
-    width: 1200px;
-    padding: 4rem 0;
-    margin: 0 auto;
+    width: 92vw;
+    padding: 4rem 2rem;
 }
 
 .tn_texts{
@@ -83,4 +82,12 @@
 
 .fourthbtn:active{
     color: #cda45e;
+}
+
+
+@media screen and (max-width: 960px) {
+    .tn_container{
+        width: 97vw;
+        padding: 4rem 1rem;
+    }
 }

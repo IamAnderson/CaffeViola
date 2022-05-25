@@ -8,7 +8,7 @@
 .ev_container{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 87vw;
     padding: 4rem 0;
     margin: 0 auto;
 }
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ev_texts h3{
@@ -31,7 +31,7 @@
 }
 
 .ev_texts h2{
-    margin: 1rem 0 2rem 0;
+    margin: 0 0 2rem 0;
     font-size: 36px;
     font-weight: 700;
     font-family: "Playfair Display", serif;
@@ -41,7 +41,7 @@
 .ev_content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -103,7 +103,11 @@
 
 
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 960px) {
+    .ev_container{
+        width: 91vw;
+    }
+
   .ev_texts h3{
         font-size: 13px;
     }

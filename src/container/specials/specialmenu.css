@@ -6,7 +6,7 @@
 
 .spm_container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -15,7 +15,6 @@
     flex-direction: column;
     justify-content: flex-start;
     max-width: 900px;
-    margin-left: 1rem;
 }
 
 .spm_texts h2{
@@ -23,23 +22,22 @@
     font-weight: 600;
     margin-bottom: 20px;
     color: #fff;
-    margin-left: 1rem;
+    line-height: 1.3;
 }
 
 .spm_texts h4{
     font-size: 16px;
-    margin-left: 1rem;
     font-family: sans-serif;
     color: #aaaaaa;
     font-style: italic;
+    line-height: 1.5;
 }
 
 .spm_texts h5{
     color: #aaaaaa;
     font-size: 16px;
     font-family: sans-serif;
-    line-height: 1.5rem;
-    margin-left: 1rem;
+    line-height: 1.5;
 }
 
 .spm_image{
@@ -51,6 +49,22 @@
 .spm_image img{
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .spm_container{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .spm_image{
+        
+    }
+
+    .spm_image img{
+        width: 40%;
+        height: 40%;
+    }
 }
 
 

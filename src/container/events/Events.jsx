@@ -28,7 +28,7 @@ const nextBtn = () => {
       <div className='ev_container'>
         <Fade bottom>
         <div className='ev_texts'>
-          <h3>EVENTS</h3>
+          <h3>EVENTS -----------</h3>
           <h2>Organize Your Events in our Restaurant</h2>
         </div>
         </Fade>

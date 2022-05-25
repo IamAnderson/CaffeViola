@@ -19,12 +19,12 @@ const GlIContainer = styled.div`
       transition: all 0.3s ease;
     }
 
-    @media screen and (max-width: 835px){
-      width: 15rem;
+    @media screen and (max-width: 960px){
+      width: 21rem;
     }
 
-    @media screen and (max-width: 500px){
-      width: 13rem;
+    @media screen and (max-width: 800px){
+      width: 19rem;
     }
 
     @media screen and (max-width: 450px){

@@ -12,14 +12,13 @@
     align-items: center;
     justify-content: center;
     padding: 4rem 0;
-    margin: 0 auto;
-    max-width: 1200px;
+    width: 87vw;
 }
 
 .mn_texts{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -76,6 +75,11 @@
 }
 
 @media screen and (max-width: 960px) {
+
+.mn_container{
+    width: 91vw;
+}
+
     .mn_content{
         display: grid;
         grid-template-columns: 1fr;

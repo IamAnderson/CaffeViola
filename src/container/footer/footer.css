@@ -12,7 +12,7 @@
 
 .ft_container{
     display: flex;
-    width: 1200px;
+    width: 87vw;
     padding: 4rem 0;
     margin: 0 auto;
     justify-content: space-between;
@@ -74,6 +74,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
     max-width: 300px;
 }
 
@@ -84,7 +85,7 @@
 }
 
 .ft_links li{
-    list-style: circle;
+    list-style: none;
     padding: 0.75rem 0;
 }
 
@@ -114,6 +115,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
     max-width: 300px;
 }
 
@@ -124,7 +126,7 @@
 }
 
 .ft_services li{
-    list-style: circle;
+    list-style: none;
     padding: 0.75rem 0;
 }
 
@@ -220,9 +222,9 @@
 
 .ft_ctexts{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     margin: 2rem 0;
 }
 
@@ -253,14 +255,14 @@
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
     .ft_container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 4rem;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 91vw;
     }
 }
 
@@ -269,5 +271,13 @@
 @media screen and (max-width: 520px) {
     .ft_container{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ft_ctexts{
+        margin-right: 3rem;
+    }
+
+    .up_icon{
+        margin-right: 1rem;
     }
 }
